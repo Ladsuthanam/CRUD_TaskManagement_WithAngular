@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './task-list.component.css'
 })
 export class TaskListComponent implements OnInit{
-  search : string = ' ';
+  search : string = '';
 
   tasks : any[] = [];
   router : any;
